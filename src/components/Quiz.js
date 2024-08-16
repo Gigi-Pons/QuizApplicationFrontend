@@ -14,7 +14,7 @@ const Quiz = () => {
   const [quizStarted, setQuizStarted] = useState(false);
   const [categorySelected, setCategorySelected] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [time, setTime] = useState(5);
+  const [time, setTime] = useState(10);
   const [quizOver, setQuizOver] = useState(false);
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const Quiz = () => {
 
     if (currentQuestionIndex < allQueries.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setTime(5); // Reset timer for the next question
+      setTime(10); // Reset timer for the next question
     } else {
       submitQuizResults([...userAnswers, newAnswer]);
     }
@@ -56,7 +56,7 @@ const Quiz = () => {
     setCurrentQuestionIndex(0);
     setUserAnswers([]);
     setScore(null);
-    setTime(5); // Start timer
+    setTime(10); // Start timer
     setQuizOver(false); // Reset the quizOver state
   };
 
