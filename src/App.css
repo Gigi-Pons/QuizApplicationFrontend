@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+  background-color: ivory;
+  min-height: 100vh; 
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.quiz-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-height: 85vh; /* Maximum width */
+  min-width: 85vw; /* Minimum width */
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timer {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.question-count {
+  font-weight: bold;
+}
+
+.score {
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  background-color: pink; /* Green background */
+  border: none; /* Remove borders */
+  color: black; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Center the text (if needed) */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Add a pointer on hover */
+  border-radius: 25px; /* Round corners */
+  font-family: 'Arial', sans-serif;
+}
+
+.custom-button {
+  background-color: pink; /* Green background */
+  border: none; /* Remove borders */
+  color: black; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Center the text (if needed) */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Add a pointer on hover */
+  border-radius: 25px; /* Round corners */
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.custom-div {
+  background-color: mistyrose;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto; /* Center horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-height: 85vh; /* Maximum width */
+  min-width: 85vw; /* Minimum width */
+}
+
+h1 {
+  font-size: 4em; /* Adjust font size */
+}
+
+h2 {
+  font-size: 1.5em; /* Adjust font size */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0; /* Space out the list items */
+}
+
